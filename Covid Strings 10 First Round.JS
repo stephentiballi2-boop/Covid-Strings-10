@@ -15,7 +15,7 @@ second middle seed = 5 seed
 third lowest seed= 6 seed
 second lowest seed = 7 seed
 lowest overall seed = 8 seed
-addEventListener(DOMContentLoaded, () => {
+addEventListener(domcontentloaded,) () => {
 bracket =getelementbyid(bracket);
 teams= [yellow,magenta,purple,red,blue,pink,indigo,teal]
 create matchup(pink versus magenta)
@@ -48,43 +48,43 @@ round.classlist.add(round);
 for (let i = zero; i < teams.length; i += two) 
 round.appendchild(creatematchup(teams[i], teams[i + one]));
 return round
-bracket.appendchild(createround(Teams));
+bracket.appendchild(createround(teams));
 matchup.innerHTML =<div class=team>${team1}</div><div class=team>${team2}</div>;
 java util.scanner
 java.util
 questions[]questions={
 question1
-NEWQUESTION2
-NEWQUESTION3
-NEWQUESTION4
-NEWQUESTION5
-NEWQUESTION6
-NEWQUESTION7
-NEWQUESTION8
-NEWQUESTION9
-NEWQUESTION10
-NEQUESTION11
-NEWQUESTION12
-NEQUESTION13
-NEWQUESTION14
-NEWQUESITON15
-Collections.Shuffle(Arrays.Aslist(Questions)
-Advancing Teams=Teams.Slice(Zero,/Two)
-Let Result= DeclareWinner(Team1 Score, Team2 Score)
-if Team Magenta  Score>=Fourty:
-Console.Log(Magenta Magnetizers Win)
-Else:
-Console.Log(PINK COVID DISEASE FIGHTERS WIN)
-IF TEAM PURPLE SCORE>=FOURTY:
-CONSOLE.LOG(PURPLE BRAVE HEARTS WIN)
-ELSE:
-CONSOLE.LOG(INDIGO ISOS WIN)
-IF TEAM YELLOW SCORE>=Fourty:
-CONSOLE.LOG(YELLOW MOXIE WINS)
-ELSE:
-CONSOLE.LOG(TEAL TERMINATORS WIN)
-IF TEAM RED SCORE >=FOURTY:
-CONSOLE.LOG(RED PROTEIN SPIKERS WIN)
-ELSE:
-CONSOLE.LOG(BLUE CURVE CRUSHERS WIN)
-return Filename
+question2
+question3
+question4
+question5
+question6
+question7
+question8
+question9
+question10
+question11
+question12
+question13
+question14
+question15
+collections.shuffle(arrays.aslist(questions)
+advancing teams=slice(current teams)
+result=declarewinner(team1 score, team2 score)
+if magenta  score>=forty:
+console.log(magenta magnetizers win)
+else:
+console.log(pink covid disease fighters win)
+if  purple score>=forty:
+console.log(purple brave hearts win)
+else:
+console.log(indigo isos win)
+if yellow score>=forty:
+console.log(yellow moxie wins)
+else:
+console.log(teal terminators win)
+if team red score >=forty:
+console.log(red protein spikers win)
+else:
+console.log(blue curve crushers win)
+return filename
