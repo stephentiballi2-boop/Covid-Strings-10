@@ -1,6 +1,6 @@
 doc.type html
 script
-filename= covid strings ten .js
+filename= covid strings ten background .js
 java.awt graphics 
 this.img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
