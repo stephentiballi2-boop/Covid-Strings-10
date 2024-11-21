@@ -33,6 +33,10 @@ matchup =document.createelement(div);
 matchup.classlist.add(matchup);
 matchup.innerHTML =<div>${team1}</Div><Div>${Team2}</Div>;
 return matchup;
+if (event.target.classlist.contains(team)) 
+return matchup
+else 
+add matchup
 create matchup(blue versus red )
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
