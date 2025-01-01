@@ -1,4 +1,4 @@
-doc. type. HTML
+doc.type.html
 script
 filename=covid strings10.js
 java.awt graphics 
@@ -24,8 +24,15 @@ override
 public actionperformed(actionevent e)
 random r= newrandom();
 colorpanel.setbackground(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))
+num teams
+total players=players per team
+if players per team=zero
+return zero
+else 
+return math floor total players/players per team
+Teamsgrouping=(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)
 buttonpanel.add(optionbutton);
-optionbutton.add actionlistener(new action listener(){
+optionbutton.add actionlistener(new action listener)
 override 
 public actionperformed(actionevent e){
 color m=jcolorchooser.showdialog(funwithgraphics.this,))
@@ -127,4 +134,18 @@ if selectedanswer=not correct
 return false
 else: 
 return true
+answer checker
+scanner=new scanner(system.in)
+string correct answer
+string useranswer=scanner.nextline()
+if useranswer.equals((correctanswer))
+system.out.print.in(correct)
+else:
+system.out.printin(incorrect)
+scanner.close
+check winner:
+if winner==true:
+log(the winner is)
+if winner==false:
+log(no winner yet) 
 return filename
