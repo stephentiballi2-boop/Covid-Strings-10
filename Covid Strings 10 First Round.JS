@@ -38,23 +38,23 @@ matchup =document.createelement(div);
 matchup.classlist.add(matchup);
 matchup.inner html =<div>${team1}</div>${team2}</div>;
 return matchup;
-create matchup(teal versus yellow)
+matchup3=(teal versus yellow)
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML =<div>${team1}</Div><Div>${Team2}</Div>;
+matchup.inner html =<div>${team1}</Div><Div>${Team2}</Div>;
 return matchup;
 if (event.target.classlist.contains(team)) 
 return matchup
 else 
 add matchup
-create matchup(blue versus red )
+matchup4=(blue versus red )
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML =<div>${team1}</div>${team2}</div>;
+matchup.inner html =<div>${team1}</div>${team2}</div>;
 return matchup;
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML =<div>${team1}</div>${team2}</div>;
+matchup.inner html =<div>${team1}</div>${team2}</div>;
 return matchup;
 createround =covidstrings10 first round
 round =document.createelement(div);
@@ -84,19 +84,22 @@ question14
 question15
 collections.shuffle(arrays.aslist(questions)
 advancing teams=slice(current teams)
-result=declarewinner(team1 score, team2 score)
+result=declarewinner(matchup1)
 if magenta  score>=forty:
 console.log(magenta magnetizers win)
 else:
 console.log(pink covid disease fighters win)
+result=declarewinner(matchup2)
 if  purple score>=forty:
 console.log(purple brave hearts win)
 else:
 console.log(indigo isos win)
+result=declarewinner(matchup3)
 if yellow score>=forty:
 console.log(yellow moxie wins)
 else:
 console.log(teal terminators win)
+result=declarewinner(matchup4)
 if team red score >=forty:
 console.log(red protein spikers win)
 else:
