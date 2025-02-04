@@ -5,6 +5,16 @@ head
 utf-8
 viewport content=width=device-width, initial-scale=one
 title covid strings10 first round bracket
+div id bracket class bracket div
+script src bracket .js
+link rel= stylesheet href=css
+head
+body
+bracket-container{}
+matchup
+solid zero;
+padding 
+text align center 
 filename=covid strings10 first round.js
 first round=(highest overall seed ,second highest seed third highest seed first middle seed, second middle seed,  third lowest seed ,second lowest seed,lowest overall seed)
 highest overall seed = 1 seed
@@ -15,18 +25,18 @@ second middle seed = 5 seed
 third lowest seed= 6 seed
 second lowest seed = 7 seed
 lowest overall seed = 8 seed
-addEventListener(domcontentloaded,) () => {
+addeventlistener(domcontentloaded,) () => {
 bracket =getelementbyid(bracket);
 teams= [yellow,magenta,purple,red,blue,pink,indigo,teal]
-create matchup(pink versus magenta)
+matchup1=(pink versus magenta)
 matchup=document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML = <div>${team1}</<div>${team2}</div>;
+matchup.inner html = <div>${team1}</<div>${team2}</div>;
 return matchup;
-create matchup(indigo versus purple)
+matchup2=(indigo versus purple)
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML =<div>${team1}</div>${team2}</div>;
+matchup.inner html =<div>${team1}</div>${team2}</div>;
 return matchup;
 create matchup(teal versus yellow)
 matchup =document.createelement(div);
