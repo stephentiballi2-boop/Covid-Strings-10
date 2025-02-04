@@ -27,12 +27,12 @@ for (let i = zero; i < teams.length;i += two)
 round.appendchild(creatematchup(teams[i],teams[i+one]));
 return round;
 bracket.appendchild(createround(teams));
-create matchup(intermediate seed two versus intermediate seed one )
+matchup1=(intermediate seed two versus intermediate seed one )
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
 matchup.innerHTML =div>${team1}</div><div>${team2}</div>;
 return matchup;
-create matchup(lowest remaining seed versus highest remaining seed)
+matchup2=(lowest remaining seed versus highest remaining seed)
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
 matchup.innerHTML =div>${team1}</div><div>${team2}</div>;
@@ -51,12 +51,12 @@ question22
 question23
 question24
 advanceteams=slice(currentteams)
-result= declarewinner(team1 score, team2 score)
+result= declarewinner(matchup1)
 if intermediate seed1 score>=forty:
 console.log(intermediate seed1 advances)
 else:
 console.log(intermediate seed2 advances)
-result= declarewinner(team1 score, team2 score)
+result= declarewinner(matchup2)
 if highest remaining seed score>=forty:
 console.log(highest remaining seed advances)
 else:
