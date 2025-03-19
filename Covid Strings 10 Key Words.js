@@ -44,17 +44,17 @@ entity reparnet (this.entity)
 d=pc.create script(d);
 d.attributes.add(foobar,{type:entity});
 d.prototype.initialize =function()
-Console.Log(This.Foobar.Name);
-Asset=This App .Assets.Find()
-Template Asset Resource 
-Entity Template instantiate
+console.log(this.Foobar.Name);
+asset=this app .Assets.Find()
+template asset resource 
+entity template instantiate
 entity script Foobar=This Entity
-entity Reparnet (This.Entity)
-E=Pc.CreateScript(E);
-E.Attributes.Add(Foobar,{Type: Entity});
-E.Prototype.Initialize =Function() {
-Console.Log(This.Foobar.Name);
-Asset=This App .Assets.Find()
+entity reparnet (This.Entity)
+e=pc.create script(e);
+e.attributes.add(foobar,{Type: Entity});
+e.prototype.initialize =function() 
+console.log(this.foobar.name);
+asset=This App .Assets.Find()
 Template Asset Resource 
 Entity Template Instanite
 Entity Script Foobar=This Entity
