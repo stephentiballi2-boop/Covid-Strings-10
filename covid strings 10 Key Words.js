@@ -47,9 +47,9 @@ d.prototype.initialize =function()
 Console.Log(This.Foobar.Name);
 Asset=This App .Assets.Find()
 Template Asset Resource 
-Entity Template Instanite
-Entity Script Foobar=This Entity
-Entity Reparnet (This.Entity)
+Entity Template instantiate
+entity script Foobar=This Entity
+entity Reparnet (This.Entity)
 E=Pc.CreateScript(E);
 E.Attributes.Add(Foobar,{Type: Entity});
 E.Prototype.Initialize =Function() {
@@ -191,21 +191,21 @@ T.Prototype.Initialize =Function() {
 Console.Log(This.Foobar.Name);
 Asset=This App .Assets.Find()
 Template Asset Resource 
-Entity Template Instanite
-Entity Script Foobar=This Entity
-Entity Reparnet (This.Entity)
-U=Pc.CreateScript(U);
-U.Attributes.Add(Foobar,{Type: Entity});
-U.Prototype.Initialize =Function() {
-Console.Log(This.Foobar.Name);
-Asset=This App .Assets.Find()
-Template Asset Resource 
-Entity Template Instanite
-Entity Script Foobar=This Entity
-Entity Reparnet (This.Entity)
-V=Pc.CreateScript(M);
-V.Attributes.Add(Foobar,{Type: Entity});
-V.Prototype.Initialize =Function() {
+entity Template Instanite
+entity Script Foobar=This Entity
+entity Reparnet (This.Entity)
+u=Pc.CreateScript(U);
+u.Attributes.Add(Foobar,{Type: Entity});
+u.Prototype.Initialize =Function() {
+console.Log(This.Foobar.Name);
+asset=This App .Assets.Find()
+template Asset Resource 
+entity Template Instanite
+entity Script Foobar=This Entity
+entity Reparnet (This.Entity)
+v=Pc.CreateScript(M);
+v.Attributes.Add(Foobar,{Type: Entity});
+v.prototype.initialize =Function() {
 Console.Log(This.Foobar.Name);
 Asset=This App .Assets.Find()
 template asset resource 
