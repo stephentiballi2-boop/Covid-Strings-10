@@ -1,14 +1,38 @@
 doc.type.html
+html lang en 
 script
-filename=covid strings 10 key word.js
+header=document create.element(header)
+header.style.backgroundcolor=#4caf50
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
+header.textcontent=’welcome to covid strings10’
+document appendchild(header)
+<header.html>
+heading variables 
+the heading numbers that determine where each heading and subheading go 
+heading1=keywords
+heading2=online references 
+heading3=script templates
+filename=covidstrings10 keywords.js
+<header.html>
+keywords
+key search words for covid strings10
 covid strings 10 key word list=[treatments not absolute,doing nothing result in failure,younger people warned this in peril,pacing one treatment,having a conversation post covid is difficult,finding out exactly and when covid began,see problems with politics today,operation speed,cares and build back better acts,infrastructure bill public trust post-covid,delivering vaccines,solution inflation reduction act,to prove were all in this together showing it like,if fraud exists action should be taken,individual states not acting like,operation warp speed warp,democracy toung people covid response,oranges of covid,
 string=””
 for string in covid strings search word list
 select characters
 edit diffuse property
 desired color=green
+<header.html>
+online references 
+links to articles that correspond to phrases in covid strings10
 covid strings 10 reference list=[a:can anyone take paxlovid for covid?doctors explain.(msn.com),b:the coronavirus revealed americas failures-the atlantic,c:americas flawed democracy:the five key areas where it is failing |us elections 2020 |d:the guardian,young americans are raising alarms about the state of u.s.democracy in a new poll:npr,e:for long covid fatigue,a strategy called pacing helps,but at a cost (msn.com),f:10 best saturday night live sketches of 2021,ranked |mashable,g:post-quarantine conversation-snl-youtube,h:the covid origins debate -the new york times (nytimes.com),i:no generation without representation:a survey of young americans (dataforprogress.org),j:report finds democracy is declining in the u.s. with trump,capitol attack cited:npr,k:operation warp speed federal efforts to accelerate covid-19 vaccine and therapeutic development |u.s. gao,l:the coronavirus aid,relief,and economic security act:summary of key health provisions |kff,m: whats in the build back better bill the house just passed? |time,
 n:infrastructure package:heres whats in it |cnn politics,o:coronavirus(covid-19)vaccines for developing countries:an equal shot at recovery (oecd.org),p:inflation reduction act-wikipedia,q:christmas vacation-nobodys walking out on this fun old-fashioned family christmas-bing video,r:irs demands 20,000 people pay back money they got during covid (msn.com),s:we are all in this together:human rights and covid-19 response and recovery|united nations,t:our coverage of the coronavirus|the economist,u:democracy,democrats,and young people will save this country|opinion(newsweek.com),v:covid origins -united states house committee on oversight and accountability exclusive:a house subcommittee releases key documents on the pandemic origin paper |the nation,w:chinese app allows small glimpse beyond great firewall |reuters
+<header.html>
+script templates
+code for accessing the references
 asset=this app.assets.find()
 template asset resource 
 entity template instantiate
@@ -217,7 +241,3 @@ w.attributes.add(foobar,{type:entity});
 w.prototype.initialize=function()
 console.log(this.foobar.name);
 return filename   
-
-
-
-
