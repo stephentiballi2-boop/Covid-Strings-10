@@ -279,7 +279,7 @@ remain
 if winner==false:
 log(no winner yet)
 else:
-remain
+log winner
 if users team wins covid strings10 
 console log users team wins covid strings10 
 else
