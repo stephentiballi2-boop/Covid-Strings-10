@@ -20,6 +20,15 @@ filename=covidstrings10 keywords.js
 keywords
 key search words for covid strings10
 covid strings 10 key word list=[treatments not absolute,doing nothing result in failure,younger people warned this in peril,pacing one treatment,having a conversation post covid is difficult,finding out exactly and when covid began,see problems with politics today,operation speed,cares and build back better acts,infrastructure bill public trust post-covid,delivering vaccines,solution inflation reduction act,to prove were all in this together showing it like,if fraud exists action should be taken,individual states not acting like,operation warp speed warp,democracy toung people covid response,oranges of covid,
+string manager non-concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+string manager concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
 string=””
 for string in covid strings search word list
 select characters
